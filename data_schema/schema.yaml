@@ -1,0 +1,30 @@
+columns:
+  - id: int64
+  - Gender: object
+  - Age: float64
+  - City: object
+  - Profession: object
+  - Academic_Pressure: float64
+  - Work_Pressure: float64
+  - CGPA: float64
+  - Study_Satisfaction: float64
+  - Job_Satisfaction: float64
+  - Sleep_Duration: object
+  - Dietary_Habits: object
+  - Degree: object
+  - Have_you_ever_had_suicidal_thoughts: object
+  - Work_Study_Hours: float64
+  - Financial_Stress: object
+  - Family_History_of_Mental_Illness: object
+  - Depression: int64
+
+numerical_columns:
+  - id
+  - Age
+  - Academic_Pressure
+  - Work_Pressure
+  - CGPA
+  - Study_Satisfaction
+  - Job_Satisfaction
+  - Work_Study_Hours
+  - Depression

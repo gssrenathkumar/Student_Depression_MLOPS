@@ -1,0 +1,21 @@
+[ 2025-04-15 18:34:03,597 ] 12 root - INFO - Initialise the program
+[ 2025-04-15 18:34:03,597 ] 15 root - INFO - Starting Phase 1 - Data Ingestion
+[ 2025-04-15 18:34:06,228 ] 64 root - INFO - Performed train test split on the dataframe
+[ 2025-04-15 18:34:06,228 ] 66 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2025-04-15 18:34:06,229 ] 74 root - INFO - Exporting train and test file path.
+[ 2025-04-15 18:34:06,329 ] 83 root - INFO - Exported train and test file path.
+[ 2025-04-15 18:34:06,337 ] 19 root - INFO - Completed Phase 1 - Data Ingestion
+[ 2025-04-15 18:34:06,337 ] 22 root - INFO - Starting Phase 2 - Data Validation
+[ 2025-04-15 18:34:06,367 ] 34 root - INFO - Required number of columns:2
+[ 2025-04-15 18:34:06,367 ] 35 root - INFO - Data frame has columns:18
+[ 2025-04-15 18:34:06,367 ] 34 root - INFO - Required number of columns:2
+[ 2025-04-15 18:34:06,367 ] 35 root - INFO - Data frame has columns:18
+[ 2025-04-15 18:34:06,480 ] 26 root - INFO - Completed Phase 2 - Data Validation
+[ 2025-04-15 18:34:06,480 ] 29 root - INFO - Starting Phase 3 - Data Transformation
+[ 2025-04-15 18:34:06,480 ] 53 root - INFO - Entered initiate_data_transformation method of DataTransformation class
+[ 2025-04-15 18:34:06,518 ] 47 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-04-15 18:34:06,519 ] 51 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-04-15 18:34:06,519 ] 47 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-04-15 18:34:06,519 ] 51 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-04-15 18:34:06,520 ] 33 root - INFO - Completed Phase 3 - Data Transformation
+[ 2025-04-15 18:34:06,520 ] 36 root - INFO - Starting Phase 4 - Model Training
