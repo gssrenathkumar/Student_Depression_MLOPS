@@ -1,0 +1,27 @@
+[ 2025-04-16 15:51:09,364 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-04-16 15:51:09,374 ] 107 dagshub - INFO - Accessing as gssrenathkumarmac2002
+[ 2025-04-16 15:51:09,892 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/gssrenathkumarmac2002/Student_Depression_MLOPS "HTTP/1.1 200 OK"
+[ 2025-04-16 15:51:10,558 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-04-16 15:51:10,559 ] 107 dagshub - INFO - Initialized MLflow to track repo "gssrenathkumarmac2002/Student_Depression_MLOPS"
+[ 2025-04-16 15:51:10,559 ] 107 dagshub - INFO - Repository gssrenathkumarmac2002/Student_Depression_MLOPS initialized!
+[ 2025-04-16 15:51:24,182 ] 18 root - INFO - Start data Ingestion
+[ 2025-04-16 15:51:28,284 ] 64 root - INFO - Performed train test split on the dataframe
+[ 2025-04-16 15:51:28,284 ] 66 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2025-04-16 15:51:28,284 ] 74 root - INFO - Exporting train and test file path.
+[ 2025-04-16 15:51:28,388 ] 83 root - INFO - Exported train and test file path.
+[ 2025-04-16 15:51:28,396 ] 21 root - INFO - Data Ingestion completed and artifact: DataIngestionArtifact(trained_file_path='Artifacts/04_16_2025_15_51_07/data_ingestion/ingested/train.csv', test_file_path='Artifacts/04_16_2025_15_51_07/data_ingestion/ingested/test.csv')
+[ 2025-04-16 15:51:28,398 ] 31 root - INFO - Initiate the data Validation
+[ 2025-04-16 15:51:28,424 ] 34 root - INFO - Required number of columns:2
+[ 2025-04-16 15:51:28,424 ] 35 root - INFO - Data frame has columns:18
+[ 2025-04-16 15:51:28,424 ] 34 root - INFO - Required number of columns:2
+[ 2025-04-16 15:51:28,424 ] 35 root - INFO - Data frame has columns:18
+[ 2025-04-16 15:51:28,535 ] 53 root - INFO - Entered initiate_data_transformation method of DataTransformation class
+[ 2025-04-16 15:51:28,571 ] 47 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-04-16 15:51:28,571 ] 51 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-04-16 15:51:28,571 ] 47 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-04-16 15:51:28,572 ] 51 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-04-16 15:57:26,626 ] 47 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-04-16 15:57:26,631 ] 51 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-04-16 15:57:26,631 ] 47 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-04-16 15:57:26,635 ] 51 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-04-16 15:57:26,635 ] 125 root - INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts/04_16_2025_15_51_07/model_trainer/trained_model/model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.8045866112512988, precision_score=0.7798158538339808, recall_score=0.830982676682508), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.8088235294117647, precision_score=0.7834757834757835, recall_score=0.8358662613981763))

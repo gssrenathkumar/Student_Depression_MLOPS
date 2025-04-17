@@ -1,0 +1,6 @@
+[ 2025-04-16 17:20:39,327 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-04-16 17:20:39,337 ] 107 dagshub - INFO - Accessing as gssrenathkumarmac2002
+[ 2025-04-16 17:20:39,717 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/gssrenathkumarmac2002/Student_Depression_MLOPS "HTTP/1.1 200 OK"
+[ 2025-04-16 17:20:40,081 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-04-16 17:20:40,085 ] 107 dagshub - INFO - Initialized MLflow to track repo "gssrenathkumarmac2002/Student_Depression_MLOPS"
+[ 2025-04-16 17:20:40,086 ] 107 dagshub - INFO - Repository gssrenathkumarmac2002/Student_Depression_MLOPS initialized!

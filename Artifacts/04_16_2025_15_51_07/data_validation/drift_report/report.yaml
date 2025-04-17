@@ -1,0 +1,12 @@
+Age:
+  drift_status: false
+  p_value: 0.7565128010059587
+CGPA:
+  drift_status: false
+  p_value: 0.9074968977954438
+Depression:
+  drift_status: false
+  p_value: 0.9998603266660486
+id:
+  drift_status: false
+  p_value: 0.5515679240829368

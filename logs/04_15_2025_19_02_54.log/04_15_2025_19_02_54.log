@@ -1,0 +1,33 @@
+[ 2025-04-15 19:02:56,367 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-04-15 19:02:56,372 ] 107 dagshub - INFO - Accessing as gssrenathkumarmac2002
+[ 2025-04-15 19:02:56,750 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/gssrenathkumarmac2002/Student_Depression_MLOPS "HTTP/1.1 200 OK"
+[ 2025-04-15 19:02:57,138 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-04-15 19:02:57,140 ] 107 dagshub - INFO - Initialized MLflow to track repo "gssrenathkumarmac2002/Student_Depression_MLOPS"
+[ 2025-04-15 19:02:57,141 ] 107 dagshub - INFO - Repository gssrenathkumarmac2002/Student_Depression_MLOPS initialized!
+[ 2025-04-15 19:02:57,141 ] 12 root - INFO - Initialise the program
+[ 2025-04-15 19:02:57,141 ] 15 root - INFO - Starting Phase 1 - Data Ingestion
+[ 2025-04-15 19:02:59,413 ] 64 root - INFO - Performed train test split on the dataframe
+[ 2025-04-15 19:02:59,413 ] 66 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2025-04-15 19:02:59,413 ] 74 root - INFO - Exporting train and test file path.
+[ 2025-04-15 19:02:59,514 ] 83 root - INFO - Exported train and test file path.
+[ 2025-04-15 19:02:59,522 ] 19 root - INFO - Completed Phase 1 - Data Ingestion
+[ 2025-04-15 19:02:59,522 ] 22 root - INFO - Starting Phase 2 - Data Validation
+[ 2025-04-15 19:02:59,551 ] 34 root - INFO - Required number of columns:2
+[ 2025-04-15 19:02:59,551 ] 35 root - INFO - Data frame has columns:18
+[ 2025-04-15 19:02:59,551 ] 34 root - INFO - Required number of columns:2
+[ 2025-04-15 19:02:59,551 ] 35 root - INFO - Data frame has columns:18
+[ 2025-04-15 19:02:59,661 ] 26 root - INFO - Completed Phase 2 - Data Validation
+[ 2025-04-15 19:02:59,661 ] 29 root - INFO - Starting Phase 3 - Data Transformation
+[ 2025-04-15 19:02:59,661 ] 53 root - INFO - Entered initiate_data_transformation method of DataTransformation class
+[ 2025-04-15 19:02:59,699 ] 47 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-04-15 19:02:59,699 ] 51 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-04-15 19:02:59,699 ] 47 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-04-15 19:02:59,699 ] 51 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-04-15 19:02:59,700 ] 33 root - INFO - Completed Phase 3 - Data Transformation
+[ 2025-04-15 19:02:59,700 ] 36 root - INFO - Starting Phase 4 - Model Training
+[ 2025-04-15 19:08:56,011 ] 47 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-04-15 19:08:56,018 ] 51 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-04-15 19:08:56,018 ] 47 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-04-15 19:08:56,023 ] 51 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-04-15 19:08:56,023 ] 125 root - INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts/04_15_2025_19_02_54/model_trainer/trained_model/model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.8090966146121756, precision_score=0.7839462011732723, recall_score=0.8359142573804257), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.8001188883935206, precision_score=0.768703597944032, recall_score=0.8342113418035327))
+[ 2025-04-15 19:08:56,048 ] 40 root - INFO - Completed Phase 4 - Model Trainer
